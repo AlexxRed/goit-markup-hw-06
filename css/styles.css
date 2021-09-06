@@ -270,7 +270,7 @@ img {
   border-radius: 4px;
   padding: 10px 32px;
   min-width: 200px;
-  min-height: 50px;
+  height: 50px;
   border-color: var(--accent-color);
 
   background-color: var(--accent-color);
@@ -671,12 +671,52 @@ img {
 
 /*------------------Subscribe--------------- */
 
-.footer-button {
-  display: inline-block;
+.footer-form {
+  display: flex;
+  width: 570px;
+  margin-left: 93px;
+}
+
+.subscribe-title {
+  flex-direction: column;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--primary-white-color);
+}
+
+.footer-input {
+  width: 358px;
+  height: 50px;
+  margin-top: 20px;
+  padding-left: 16px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
-  padding: 10px 32px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  background-color: var(--second-backgroud-color);
+}
+
+.footer-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+  margin-left: 12px;
+  border-radius: 4px;
   min-width: 200px;
-  min-height: 50px;
+  height: 50px;
   border-color: var(--accent-color);
 
   background-color: var(--accent-color);
@@ -694,14 +734,13 @@ img {
   transition-delay: var(--animation-delay);
 }
 
-.footer-butto:hover,
-.footer-butto:focus {
+.footer-button:hover,
+.footer-button:focus {
   background-color: #188ce8;
 }
 
 .signup-icon {
-  align-items: center;
-
+  margin-left: 10px;
   fill: var(--primary-white-color);
 }
 
