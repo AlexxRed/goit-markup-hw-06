@@ -341,7 +341,7 @@
         </section>
     </main>
 
-<!--footercontact section-->
+<!--footer contact section-->
     
     <footer class="footer">
         <div class="container">
@@ -393,13 +393,27 @@
                             </li>
                         </ul>
             </div>
-                    <!-- </section> -->
+                    <!-- </section Subscribe> -->
+            
+            <form name="signup_form" autocomplete="off" action="">
+
+                <label for="user_email">
+                    Подпишитесь на рассылку
+                </label>
+                <input type="email" name="email" id="user_email">
+                <button class="footer-button btn type="submit"> Подписаться
+                    <svg class="signup-icon" width="24" height="24">
+                        <use href="./images/sprite.svg#icon-icon-send"></use>
+                    </svg>
+                </button>
+
+            </form>
         </div>
     </footer>
 
     <div class="backdrop is-hidden" data-modal>
         <div class="modal-window">
-            <button class="modal-button" type="button" data-modal-close>
+            <button class="modal-button btn" type="button" data-modal-close>
                 <svg class="modal-icon" width="11" height="11">
                     <use href="./images/sprite.svg#icon-closed"></use>
                 </svg>

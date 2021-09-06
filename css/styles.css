@@ -274,8 +274,6 @@ img {
   border-color: var(--accent-color);
 
   background-color: var(--accent-color);
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -668,6 +666,42 @@ img {
 .social-link:focus,
 .social-link:hover .footer-svg,
 .social-link:focus .footer-svg {
+  fill: var(--primary-white-color);
+}
+
+/*------------------Subscribe--------------- */
+
+.footer-button {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 200px;
+  min-height: 50px;
+  border-color: var(--accent-color);
+
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--primary-white-color);
+  text-align: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+  transition-property: background-color;
+  transition-duration: var(--animation-time);
+  transition-timing-function: var(--animation-timing-function);
+  transition-delay: var(--animation-delay);
+}
+
+.footer-butto:hover,
+.footer-butto:focus {
+  background-color: #188ce8;
+}
+
+.signup-icon {
+  align-items: center;
+
   fill: var(--primary-white-color);
 }
 
