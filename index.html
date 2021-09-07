@@ -420,8 +420,8 @@
                 <b class="modal-title">Оставьте свои данные, мы вам перезвоним</b>
                 <label class="form-label">
                     <span class="form-text">Имя</span>
-                    <div class="input-position">
-                        <input class="form-input" type="text" name="user-name" placeholder=" ">
+                    <div class="input-position" role="group" arial-labelby="contact-details-head">
+                        <input id="contact-details-head" class="form-input" type="text" name="user-name" placeholder=" ">
                         <svg class="modal-icon input-icon" width="18" height="18">
                             <use href="./images/sprite.svg#icon-person"></use>
                         </svg>
@@ -454,7 +454,7 @@
                     <svg class="checkbox-icon" width="16" height="15">
                         <use href="./images/sprite.svg#icon-check"></use>
                     </svg>
-                    <p class="checkbox-text">Соглашаюсь с рассылкой и принимаю <a  class="form-link link" href="">Условия договора</a></p>
+                    <span class="checkbox-text">Соглашаюсь с рассылкой и принимаю <a  class="form-link link" href="">Условия договора</a></span>
                 </label>
 
                 <button class="form-button btn" type="submit">Отправить</button>
