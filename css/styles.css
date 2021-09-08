@@ -805,13 +805,15 @@ img {
 
 .modal-button:hover,
 .modal-button:focus {
-  color: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 .modal-icon:hover,
 .modal-icon:focus {
   fill: var(--accent-color);
 }
+
+/*------------------modal-form--------------- */
 
 .modal-form {
   display: flex;
@@ -937,6 +939,7 @@ img {
 .form-checkbox {
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-bottom: 30px;
   cursor: pointer;
 }
@@ -972,6 +975,7 @@ img {
 
 .checkbox-text {
   text-align: center;
+
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
